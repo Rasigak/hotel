@@ -1,0 +1,621 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+   }
+   nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 3vh;
+    background-color:gray;
+    font-family:arial black;
+    }
+    .data{
+        color:black;
+        margin-left:30px;
+        font-size: 30px;
+        font-weight: 500;
+      
+       }
+       .nav-links {
+        display: flex;
+        justify-content: space-around;
+        width: 70%;
+         }
+       .nav-links li {
+         list-style: none;
+        }
+        ul li{
+          display: inline-block;
+          position: relative;
+        }
+        ul li ul.enum{
+          width: 100%;
+          background: white;
+          position: absolute;
+          display: none;
+        }
+        ul li a:hover{
+          color: black;
+        }
+        ul li:hover ul.enum{
+          display: inline-block;
+        }
+
+         .nav-links a {
+        color: white;
+        text-decoration: none;
+        letter-spacing: 3px;
+        font-weight: bold;
+        font-size: 18px;
+        padding: 14px 16px;
+        font-family: 'Times New Roman', Times, serif;
+        
+      }
+        .nav-links a:hover:not(.active) {
+          background-color:darkcyan;
+        
+          }
+         .nav-links li a.active {
+           background-color:skyblue;
+         } 
+         h4{
+          text-align: left;
+            }
+         body{
+            background: url(bgg.webp)no-repeat;
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh;
+            background-attachment: fixed;
+           
+         } 
+         h1{
+            color: black;
+            font-family:algerian ;
+            align-items: center;
+            justify-content: center;
+            margin-top: 100px;
+            text-align: center;
+            font-size: 80px;
+            
+             } 
+      p{
+       color:black;
+       align-items: center;
+       justify-content: center;
+       margin-top: 50px;
+       text-align: center;
+       font-size:32px ;
+       font-family: Arial black;
+             }
+      .one, .two, .three,.four{
+        float: left;
+        width: 25%;
+        color:black;
+        padding: 10px;
+        height: 1000px;
+           }
+      .one, .two {
+         float: left;
+         color:black;
+         padding: 20px;
+         margin-left: 80px;
+             }
+      .one {
+         background-color:gray;
+         width:40%;
+         height:550px;
+            }	
+        .two {
+          background-color: gray;
+          width: 40%;
+          height: 550px;
+               }
+        .three, .four {
+          float: left;
+          color:black;
+          padding: 20px;
+          margin-left: 80px;
+             }
+        .three {
+           background-color: gray;
+           width:40%;
+           height:550px;
+           margin-top: 50px;
+                 }	
+        .four{
+          background-color: gray;
+          width: 40%;
+          height: 550px;
+          margin-top: 50px;
+                }
+           #num{
+          font-size: 30px;
+           margin-top: 50px;
+        }
+        .first, .second, .third {
+          float: left;
+          color: white;
+          padding: 10px;
+          margin-left: 50px;
+                }
+        .first {
+          background-color:whitesmoke;
+          color: black;
+          height:1200px;
+          width:50%;
+               }	
+        .second {
+          background-color:slategray;
+          height: 600px;
+          width: 30%;
+               }
+        .third {
+          background-color: slategray;
+          height: 500px;
+          width:30% ;
+          margin-top: 50px;
+              }
+        #rr{
+          font-size: 50px;
+          margin-top: 30px;
+              }
+        h3{
+          font-size: 20px;
+          color: black;
+          font-family: arial black;
+          text-align: center;           
+             }
+        #table{
+          font-size: 15px;
+          font-weight: 800;
+           }
+
+        #name{
+         color: black;
+         text-align: left;
+         font-size: 20px;
+        }
+        .num1, .num2 {
+          float: left;
+          width: 25%;
+          color:black;
+          padding: 10px;
+          height: 500px;
+          text-align: center;
+          margin-left: 50px;
+        }
+        .num1 {
+          background-color: whitesmoke;
+          width:40%;
+          height:500px; 
+             }	
+        .num2 {
+          background-color: whitesmoke;
+          width: 40%;
+          height: 500px;
+             }
+       .num3, .num4 {
+         float: left;
+         width: 25%;
+         color:black;
+         padding: 10px;
+         height: 500px;
+         text-align: center;
+         margin-left: 50px;
+             }
+        .num3 {
+          background-color: whitesmoke;
+          width:40%;
+          height:500px;
+          margin-top: 50px;
+               }	
+       .num4 {
+          background-color: whitesmoke;
+          width: 40%;
+          height: 500px;
+          margin-top: 50px;
+             }
+       .num5, .num6 {
+         float: left;
+         width: 25%;
+         color:black;
+         padding: 10px;
+         height: 500px;
+         text-align: center;
+         margin-left: 50px;
+             }
+       .num5 {
+         background-color: whitesmoke;
+         width:40%;
+         height:500px;
+         margin-top: 50px;
+            }	
+        .num6{
+          background-color: whitesmoke;
+          width: 40%;
+          height: 500px;
+          margin-top: 50px;
+             }
+        .theme{
+           margin: auto;
+           width: 420px;
+           background: transparent;
+           border: 5px solid whitesmoke;
+           backdrop-filter: blur(9px);
+           color:black;
+           font-family: arial black;
+           border-radius: 12px;
+           padding: 30px 40px;
+           margin-top: 50px;
+            }
+        .theme.input-box{
+            position: relative;
+            width: 100%;
+            height: 50px;
+            margin: 30px ;
+            }
+        .input-box input{
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            border: none;
+            outline: none;
+            border: 3.5px solid whitesmoke;
+            border-radius: 40px;
+            font-size: 16px;
+            color: #fff;
+            padding: 20px 45px 20px 20px;
+               }
+        .input-box input::placeholder{
+             color: #fff;
+               }
+        .btn{
+             width: 50%;
+             height: 45px;
+             margin-inline: 80px;
+             outline: none; 
+             border-radius: 40px;
+             border-color:whitesmoke;
+             cursor:pointer ;
+             font-size: 16px;
+             color:black;
+             font-family: arial black;
+             font-weight: 600;
+               }
+        
+            
+        .wrapper{
+          margin-left: 50px;
+          background-color: whitesmoke;
+          color: white;
+            }
+        .count1,.count2 {
+          float: left;
+          width: 25%;
+          color: white;
+          padding: 10px;
+          height: 500px;
+          text-align: center;
+          margin-left: 50px;
+           }
+        .count2{
+           background-color:darkgrey;
+           color: black;
+           height:400px;
+           width:30%;
+          }
+        .count1{
+          background-color:darkgrey;
+          height: 450px;
+          width: 40%;
+         }
+       .any{
+         height: 50px;
+         width:80%;
+         border-radius: 30px;
+         border-color:black;
+            }
+       .any1{
+          height: 40px;
+          width:80%;
+          border-radius: 30px;
+             }
+       .button{
+          background-color: darkcyan;
+          border-radius: 30px;
+          height: 30px;
+          width:40% ;
+             }
+             .then{
+            
+              width:100%;
+              height:900px;
+              background-color:darkgray; 
+              
+            } 
+            .dot1,.dot2 {
+              float: left;
+              width: 25%;
+              color: white;
+              padding: 10px;
+              height: 500px;
+              text-align: center;
+              margin-left: 30px;
+               }
+            .dot2{
+              
+               background-color:white;
+               color: black;
+               height:700px;
+               width:50%;
+              }
+            .dot1{
+              padding-top: 0px;
+              padding-left: 0px;
+              background-color:darkgrey;
+              height:600px;
+              width: 45%;
+             } 
+        h2{
+          text-align: center;
+          
+          font-family: algerian;
+        } 
+        #ss{
+          color:salmon;
+          font-family: algerian;
+          padding: 10px;
+          font-size: 40px;
+          text-align: center;
+        }
+        #sss{
+          padding: 10px;
+          text-align: justify;
+          font-size: 35px;
+          font-family: arial black;
+          background-color:whitesmoke;
+        }
+     #ssss{
+      text-align: justify;
+     }  
+     #sssss{
+      text-align: justify;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-style: italic;
+     }
+     .click{
+      padding-top: 10px;
+      padding-bottom: 20px;
+      padding-right: 30px;
+      padding-left: 30px;
+      margin-inline: 30px;
+      outline: none; 
+      border-radius: 5px;
+      border-color:whitesmoke;
+      background-color:salmon;
+      cursor:pointer ;
+      font-size: 20px;
+      color:black;
+      font-family: arial black;
+      
+     } 
+     .lack{
+      width:100%;
+      height:1400px;
+      background-color:silver;
+      margin-top:0px;
+    } 
+    .lack1, .lack2, .lack3,.lack4{
+      float: left;
+      width: 25%;
+      color:black;
+      padding: 10px;
+      height: 1000px;
+         }
+    .lack1, .lack2 {
+       float: left;
+       color:black;
+       padding: 20px;
+       margin-left: 85px;
+           }
+    .lack1 {
+       background-color:white;
+       width:40%;
+       height:500px;
+       margin-top: 50px;
+       padding-left: 5px;
+       
+          }	
+      .lack2{
+        background-color: white;
+        width: 40%;
+        height: 500px;
+        margin-top: 50px;
+        padding-left: 5px;
+             }
+      .lack3, .lack4 {
+        float: left;
+        color:black;
+        padding: 20px;
+        margin-left: 85px;
+           }
+      .lack3{
+         background-color: white;
+         width:40%;
+         height:500px;
+         margin-top: 50px;
+         padding-left: 5px;
+               }	
+      .lack4{
+        background-color: white;
+        width: 40%;
+        height: 500px;
+        margin-top: 50px;
+        padding-left: 5px;
+              }                                                        
+      #ssssss{
+        margin: 10px;
+        font-size: 20px;
+      }                                                  
+     #rk{
+      text-align: center;
+      font-size:20px ;
+      font-family: arial black;
+     }
+     .box{
+            padding-bottom: 30px;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 10px;
+            margin: 50px;
+            margin-inline: 550px; 
+            border-radius: 5px;
+            cursor:pointer ;
+            font-size: 18px;
+            text-align: center;
+            color:black;
+            background-color:salmon;
+            font-family: arial black;
+            font-weight: 600;
+     
+     }                     
+     .control{
+      width:100%;
+      height:500px;
+      background-color:gray;
+      
+    }
+    .control1, .control2, .control3,.control4{
+      float: left;
+      width: 25%;
+      color:black;
+      padding: 10px;
+      height: 1000px;
+         }
+    .control1, .control2 {
+       float: left;
+       color:black;
+       padding: 20px;
+       margin-left: 25px;
+           }
+    .control1 {
+       background-color:gray;
+       width:22%;
+       height:300px;
+       margin-top: 50px;
+          }	
+      .control2 {
+        background-color:gray;
+        width: 22%;
+        height: 300px;
+        margin-top: 50px;
+             }
+      .control3, .control4 {
+        float: left;
+        color:black;
+        padding: 20px;
+        margin-left: 25px;
+           }
+      .control3 {
+         background-color:gray;
+         width:22%;
+         height:300px;
+         margin-top: 50px;
+               }	
+      .control4{
+        background-color: gray;
+        width: 22%;
+        height: 300px;
+        margin-top: 50px;
+              } 
+              #ctrl{                                                   
+              font-size: 35px;
+              margin-top: 0px;
+              color: whitesmoke; 
+              font-family: arial black;                                
+                              
+              }                  
+        #ctrls{
+          font-size:22px;
+          color: honeydew;
+        } 
+        .better{
+          padding-bottom: 30px;
+          padding-left: 30px;
+          padding-right: 30px;
+          padding-top: 10px;
+          margin: 50px;
+          margin-inline: 500px; 
+          border-radius: 5px;
+          cursor:pointer ;
+          font-size: 18px;
+          text-align: center;
+          color:black;
+          background-color:salmon;
+          font-family: arial black;
+          font-weight: 600;
+   
+   }  
+   .tense{
+    margin-top:0px;
+    width:100%;
+    height:1000px;
+    background-color:silver; 
+    
+  } 
+  .ten{
+    margin-top: 0px;
+    background-color:silver;
+    width: 100%;
+    height:500px ;
+    margin: 5px;
+  
+  }
+.tens{
+  
+      background-color:gray;
+      color: black;
+      height:500px;
+      width:30%;
+    
+     }
+     #slider {
+      overflow: hidden;
+     
+      }
+      
+      @keyframes slider {
+      0% { left: 0; }
+      30% { left: 0; }
+      33% { left: -100%; }
+      63% { left: -100%; }
+      66% { left: -200%; }
+      95% { left: -200%; }
+      100% { left: 0; }
+      }
+      #slider figure {
+      width:300%;
+      
+      position: relative;
+      animation: 9s slider infinite;
+      }
+      
+      #slider figure img {
+      width: 33.3%;
+      height : 10%;
+      float: left;
+      }    
+                                  
+                                 
+                         
+                        
+                      
+                  
+                
+                
+        
+             
